@@ -40,6 +40,6 @@ Welcome to my home lab project portfolio! I'm currently pursuing a degree in IT 
 ---
 
 ## 🔗 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/logan-leach-249a85232) (replace with your real URL)
+- [LinkedIn](https://www.linkedin.com/in/logan-leach-249a85232) 
 - [WGU Student Portfolio (coming soon)]()
 
