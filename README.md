@@ -19,6 +19,38 @@ Welcome to my home lab project portfolio! I'm currently pursuing a degree in IT 
 - Hosts **Ubuntu Linux VMs**
 - Used for lab environments and testing different tools
 
+## 🖥️ Windows Server 2022 Deployment in Proxmox
+
+This project shows how I set up and configured Windows Server 2022 in my home lab using Proxmox. I used this server to practice installing roles like Active Directory and DNS.
+
+---
+
+## 💻 VM Setup in Proxmox
+- **OS**: Windows Server 2022 (Evaluation ISO)
+- **CPU**: 2 Cores
+- **RAM**: 4 GB
+- **Disk**: 80 GB
+- **Network**: Default bridged adapter
+
+---
+
+## 🔧 Installation Steps
+1. **Upload the Windows Server ISO** to Proxmox
+2. **Create a new VM** and mount the ISO
+3. **Install Windows Server 2022** inside the VM
+4. **Set a static IP** and rename the server (example: `homelabserver`)
+5. **Turn on Remote Desktop** for easier access
+
+---
+
+## 🧱 Roles I Installed
+- ✅ Active Directory Domain Services (AD DS)
+- ✅ DNS Server
+- ✅ DHCP Server *(optional in my setup)*
+
+
+Install-WindowsFeature AD-Domain-Services, DNS -IncludeManagementTools
+
 ---
 
 ### 🔐 Twingate Deployment
